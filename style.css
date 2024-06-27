@@ -1,0 +1,16 @@
+/*ACÁ CENTRO EL NAVBAR*/
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+/*ACÁ CENTRO LA CARD*/
+#cardevento{
+    display: flex;
+    justify-content: center;
+}
+
+/*cardgroup*/
+#card-group{
+    justify-content: center;
+}

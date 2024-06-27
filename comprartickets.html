@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Tickets</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- CSS personalizado para el fondo -->
+  <link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2>Compra de Tickets</h2>
+  <form> 
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+    </div>
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+    </div>
+    <div class="form-group">
+      <label for="tickets">Cantidad de Tickets:</label>
+      <input type="number" class="form-control" id="tickets" placeholder="Ingrese la cantidad de tickets que desea comprar" min="1" max="3">
+    </div>
+    <a href="./index.html"><button type="" class="btn btn-secondary">Atrás</button></a>
+    <button type="submit" class="btn btn-primary">Comprar</button>
+  </form>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
